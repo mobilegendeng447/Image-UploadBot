@@ -20,7 +20,7 @@ TGraph = Client(
 @TGraph.on_message(filters.command("start"))
 async def start(client, message):
     await message.reply_text(
-        f"Hello!! {message.from_user.first_name},\nI Am Telegram Image Uploader Bot\n\nThis Bot Comes Under @AyushBots ❤️",
+        f"Hello!! {message.from_user.first_name},\nI Am Telegraph Image Uploader Bot\n\nThis Bot Comes Under @ParaboyMirror ❤️",
         True,
     )
 
